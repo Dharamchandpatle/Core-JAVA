@@ -1,4 +1,4 @@
-package StaticBlock;
+package Static$NonStatic;
 
 public class StudentSelectedInInterview {
     static String clgname , cmpname ;

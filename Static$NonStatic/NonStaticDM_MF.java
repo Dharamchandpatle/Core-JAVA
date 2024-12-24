@@ -1,3 +1,5 @@
+package Static$NonStatic;
+// this program to call Non Static data member and member function 
 public class NonStaticDM_MF {
     int a = 10 ;
     void show(){

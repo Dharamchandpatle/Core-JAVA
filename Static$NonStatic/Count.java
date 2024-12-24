@@ -1,4 +1,4 @@
-package StaticBlock;
+package Static$NonStatic;
 
 public class Count {
     // static int count ; // op : 1 2 3 4 5 6 7 8  reason is  allocat ClassArea loading memory 
