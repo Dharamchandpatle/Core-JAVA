@@ -1,4 +1,3 @@
-package Static_Block;
 
 public class StaticBlock {
     static int a ;

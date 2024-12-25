@@ -1,5 +1,4 @@
-// import javafx.application; 
-public class withoutMain  {
+public class withoutMain {
 
 static{
     System.out.println("Hellllo static java ");
