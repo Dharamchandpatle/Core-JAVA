@@ -10,21 +10,21 @@ class Demo{
 
 class Demo1 extends Demo{
     void show(){
-        super.show(); // For parent class show method calling 
+        super.show(); // For parent class show method calling
         System.out.println("This is demo1 ");
     }
 }
 
 class Demo2 extends Demo1 {
     void show(){
-        super.show(); // For parent class show method calling 
+        super.show(); // For parent class show method calling
         System.out.println("This is demo2 ");
     }
 }
 public class MethodOverriding extends Demo2{
     void show()
     {
-        super.show(); // For parent class show method calling 
+        super.show(); // For parent class show method calling
         System.out.println("This is main ");
     }
 
