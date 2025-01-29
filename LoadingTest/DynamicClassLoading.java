@@ -3,12 +3,18 @@
 import java.util.Scanner;
 
 class A {
+    A(){
+        System.out.println("A is a constructor ");
+    }
     static {
         System.out.println(" Loading class A");
     }
 }
 
 class B {
+    B(){
+        System.out.println("B is a Constructor ");
+    }
     static {
         System.out.println(" Loading class B");
     }
@@ -26,6 +32,11 @@ public class DynamicClassLoading {
 
         try {
             Class c = Class.forName(name);
+            try {
+                c.newInstance();
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
             System.out.println(c);
         } catch (Exception e) {
             // TODO: handle exception
