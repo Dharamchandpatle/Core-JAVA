@@ -21,6 +21,14 @@ public class Test {
 
         System.out.println(login.getName() + "   " + login.getPass());
 
+        String msg = Validation.validate(login);
+        if(msg.equals("valid")){
+            System.out.println("Welcom = "+ login.getName());
+        }
+        else{
+            System.out.println("Failed..");
+        }
+
     }
     
 }
