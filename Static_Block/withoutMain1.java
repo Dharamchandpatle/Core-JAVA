@@ -1,3 +1,5 @@
+package Static_Block ;
+
 public class withoutMain {
 
 static{

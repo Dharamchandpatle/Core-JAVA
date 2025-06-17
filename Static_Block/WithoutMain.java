@@ -1,4 +1,6 @@
 // import javafx.application; 
+package Static_Block ;
+
 public class withoutMain  {
 
 static{
